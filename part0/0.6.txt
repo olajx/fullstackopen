@@ -1,0 +1,10 @@
+title add new note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/spa/new_note_spa
+server-->browser: HTTP status code 201
+
+note over browser:
+user write text into field 
+and click the submit button
+that reloads the note page
+end note
